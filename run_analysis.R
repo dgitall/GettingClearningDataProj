@@ -79,4 +79,5 @@ meanTrimmedData <- trimmedData %>% arrange( Subject, Activity) %>%
 # Write out the resulting tidydata to a new file
 # Data is stored as a space separated text file. To read back in, 
 # use  data <- read.table(file = "TidyDataSet.txt", header = TRUE, quote = "")
-write.table(meanTrimmedData, file = "TidyDataSet.txt", quote = FALSE)
+write.table(meanTrimmedData, file = "TidyDataSet.txt", 
+            quote = FALSE, row.name = FALSE)
