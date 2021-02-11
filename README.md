@@ -65,7 +65,7 @@ project directory.
      activity_labels.txt using a lookup table.
 
 * The general approach to renaming the variables to more understandable terms was:
-     + Changing 't' to 'Time.Domain' and 'f' to 'Frequency Domain'
+     + Changing 't' to 'Time.Domain' and 'f' to 'Frequency.Domain'
      + Spelling out most shortened names
      + Changing to a common form of capitalized first letters and words separated by '.'
      + Removing all other special characters and placing '.' between all words
